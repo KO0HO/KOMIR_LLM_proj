@@ -27,6 +27,7 @@ conda-meta/
 .idea/
 .DS_Store
 Thumbs.db
+.vevn_paddle/
 
 # =========================
 # Jupyter
@@ -42,22 +43,22 @@ logs/
 # =========================
 # Data files
 # =========================
-data/raw_pdf/
-data/raw/
-data/interim/
-data/processed/
+# data/raw_pdf/
+# data/raw/
+# data/interim/
+# data/processed/
 
 # Keep directory structure
-!data/
-!data/.gitkeep
-!data/raw_pdf/.gitkeep
+# !data/
+# !data/.gitkeep
+# !data/raw_pdf/.gitkeep
 
 # =========================
 # OCR / Generated outputs
 # =========================
-outputs/
-!outputs/
-!outputs/.gitkeep
+# outputs/
+# !outputs/
+# !outputs/.gitkeep
 
 # =========================
 # PaddleOCR external repository
