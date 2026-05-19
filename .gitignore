@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Data files
+# =========================
+data/raw_pdf/
+data/raw/
+data/interim/
+data/processed/
+
+# Keep directory structure
+!data/
+!data/.gitkeep
+!data/raw_pdf/.gitkeep
+
+# =========================
+# OCR / Generated outputs
+# =========================
+outputs/
+!outputs/
+!outputs/.gitkeep
+
+# =========================
+# PaddleOCR external repository
+# =========================
+external/
+!external/
+!external/.gitkeep
+
+# =========================
+# Model cache
+# =========================
+.paddlex/
+*.pdmodel
+*.pdiparams
+*.pdparams
+*.onnx
+
+# =========================
+# Large media files
+# =========================
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
