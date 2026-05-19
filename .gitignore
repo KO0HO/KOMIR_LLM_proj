@@ -27,7 +27,7 @@ conda-meta/
 .idea/
 .DS_Store
 Thumbs.db
-.venv_paddle/
+venv_paddle/
 
 # =========================
 # Jupyter
